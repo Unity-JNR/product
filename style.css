@@ -1,59 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 body {
-  background-color: #000;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
+    background-color: #fce38a; /* Change background color to a light yellow */
+    color: #2e2e2e; /* Change text color to a dark color for better contrast */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
-.container{
-    width:100%;
-    height:100vh;
-    display:flex;
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 p {
-  margin-bottom: 20px;
-  text-align: center;
-  padding:3px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 3px;
 }
 
 strong {
-  color: #c0c0c0;
+    color: #ff6f69; /* Change strong text color to a bright red */
 }
 
 img {
-  max-width: 100%;
-  height: 100%;
-  padding:20px;
-  border: 2px solid #c0c0c0;
-  border-radius:3px;
-  margin-right: 10px;
-  transition: transform 0.3s ease-in-out;
-  animation: zoom 5s ease-out;
-}
-
-@keyframes zoom {
-  from {
-    transform: scale(0.8);
-  }
-  to {
-    transform: scale(1);
-  }
+    max-width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 2px solid #ff6f69; /* Change border color to match the strong text color */
+    border-radius: 3px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+   
 }
 
 
-img{
-    height:40vh;
-    object-fit:cover;
-    object-position:center center;
+
+img {
+    height: 40vh;
+    object-fit: cover;
+    object-position: center center;
     aspect-ratio: 1/1;
+}
+
+
+
+#bold {
+  font-weight: bold;
+  color: #333; /* Change the color as needed */
+  text-align: center;
+ 
 }
