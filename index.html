@@ -1,49 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samosas Delight</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <main>
-        
-        <div class="container">
-            <h1 > Samosas Delight</h1>
-         
-          <p>
-            <strong
-              >1. Samoosas - <span style="color: #000000">R5 Each</span></strong
-            ><br />
-            Delicious and savory, our samoosas are perfect for any occasion. Indulge
-            in the rich flavors that will leave your taste buds dancing.
-          </p>
-    
-          <p>
-            <strong
-              >Exclusive Combo Deal - Only
-              <span style="color: #000000">R25!</span></strong
-            ><br />
-            Why settle for one when you can have three? Grab our exclusive combo
-            deal:
-            <br />
-            <img
-              src="https://i.postimg.cc/d3QCyRxy/Chicken-Samosas-EXPS-TOHFM23-245621-P2-MD-09-09-2b.jpg"
-              alt="Samoosas"
-            />
-           
-            <br />
-            3 Samoosas<br />
-            All for just <span style="  color: #ff6f69; font-weight: bolder;">R25!</span> It's a perfect
-            combo for a quick snack or a tasty treat to share.
-          </p>
-    
-        </div>
-    
-    </main>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samosas Delight</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main>
+    <div class="container">
+      <h1>Samosas Delight</h1>
+
+      <p>
+        <strong>1. Samoosas - <span style="color: #000000">R5 Each</span></strong><br />
+        Delicious and savory, our samoosas are perfect for any occasion. Indulge
+        in the rich flavors that will leave your taste buds dancing.
+      </p>
+
+      <p>
+        <strong>Exclusive Combo Deal - Only <span style="color: #000000">R25!</span></strong><br />
+        Why settle for one when you can have three? Grab our exclusive combo deal:
+        <br />
+        <img src="https://i.postimg.cc/d3QCyRxy/Chicken-Samosas-EXPS-TOHFM23-245621-P2-MD-09-09-2b.jpg" alt="Samoosas" />
+        <br />
+        3 Samoosas<br />
+        All for just <span style="color: #ff6f69; font-weight: bold;">R25!</span> It's a perfect combo for a quick snack or a tasty treat to share.
+      </p>
+    </div>
+  </main>
+
+  <!-- Order Form -->
+  <div>
+    <form action="https://formspree.io/f/xqkvoyrv" method="post" id="orderForm" target="_blank">
+      <h2>Place Your Order</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="quantity">Quantity:</label>
+      <input type="text" id="quantity" name="quantity" min="1" required>
+
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+
+  <!-- Add this script tag to your HTML -->
   
-<script src="/script.js"></script>
-    
-  </body>
+  <script src="/script.js"></script>
+</body>
 </html>
