@@ -129,46 +129,35 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Media queries for smaller screens */
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px;
+  /* Media queries for different devices */
+  @media screen and (max-width: 600px) {
+    /* Styles for devices with a maximum width of 600px (e.g., smartphones) */
+    h1 {
+      font-size: 24px;
+      margin-bottom: -20px;
     }
 
-    /* Additional styles for smaller screens if needed */
-    .container {
-        padding: 20px;
+    h2 {
+      font-size: 20px;
     }
 
-    form {
-        max-width: 100%;
+    p, label, input, button {
+      font-size: 14px;
     }
-}
+  }
 
-/* Media queries for medium-sized screens */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    body {
-        font-size: 16px;
-    }
-    
-    /* Additional styles for medium-sized screens if needed */
-    .container {
-        padding: 30px;
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Styles for devices with a width between 601px and 1024px (e.g., tablets) */
+    h1 {
+      font-size: 36px;
+      margin-bottom: -20px;
     }
 
-    form {
-        max-width: 80%;
-    }
-}
-
-/* Media queries for larger screens */
-@media only screen and (min-width: 1025px) {
-    /* Additional styles for larger screens if needed */
-    .container {
-        padding: 40px;
+    h2 {
+      font-size: 24px;
     }
 
-    form {
-        max-width: 60%;
+    p, label, input, button {
+      font-size: 16px;
     }
-}
+  }
